@@ -1,0 +1,157 @@
+[Source]
+Type=304
+TypeName=SQLite
+Server=
+Port=0
+Username=620365077603760F7F03
+Password=
+Database=C:\Users\Rohan\Desktop\proj3\database.db
+Schema=
+Driver=
+DriverFileName=
+Engine=
+Charset=
+ConnStr=Provider=MSDASQL;Driver={SQLite Driver};
+ConnMethod=0
+FetchSize=10000
+[Source.Security]
+UseSSL=0
+SSLMode=
+UseAuthentication=0
+SecureAuth=1
+UseEncryptData=0
+ClientKey=
+ClientCert=
+CACert=
+CAPath=
+Cipher=
+CRL=
+UseDistNames=0
+CN=
+L=
+ST=
+OU=
+O=
+C=
+SysDB=
+DBPassword=
+MDF=
+[Destation]
+Type=4098
+TypeName=PostgreSQL
+Server=localhost
+Port=5432
+Username=710370077C037D0F780377077E038C1F
+Password=710370076A03730F7503670773037A1F62036C07
+Database=postgres
+Schema=public
+Driver=
+DriverFileName=
+Engine=
+Charset=UTF8
+ConnStr=Provider=PostgreSQL;Location=%db;User ID=%user;Password=%pwd;Data Source=%host;Address=%addr;Port=%port;
+ConnMethod=0
+UCF='\ "|=+*&^@!`~:;,.?/<>()[]{}
+UCT=_
+BatchCount=2000
+[Options]
+OverwriteDatabase=0
+[Destation.Security]
+UseSSL=0
+SSLMode=
+UseAuthentication=0
+SecureAuth=1
+UseEncryptData=0
+ClientKey=
+ClientCert=
+CACert=
+CAPath=
+Cipher=
+CRL=
+UseDistNames=0
+CN=
+L=
+ST=
+OU=
+O=
+C=
+SysDB=
+DBPassword=
+MDF=
+[Tables]
+Count=5
+SName 0=ORDERS
+SType 0=1
+DName 0=orders
+TDescr 0=TRIAL
+OnlyStruct 0=0
+TableIndex 0=1
+ForeignKey 0=1
+MakeNameUnique 0=0
+TO 0=3
+Name Case 0=2
+CopyAutoIncrement 0=1
+Where 0=
+SName 1=cart
+SType 1=1
+DName 1=cart
+TDescr 1=TRIAL
+OnlyStruct 1=0
+TableIndex 1=1
+ForeignKey 1=1
+MakeNameUnique 1=0
+TO 1=3
+Name Case 1=2
+CopyAutoIncrement 1=1
+Where 1=
+SName 2=categories
+SType 2=1
+DName 2=categories
+TDescr 2=TRIAL
+OnlyStruct 2=0
+TableIndex 2=1
+ForeignKey 2=1
+MakeNameUnique 2=0
+TO 2=3
+Name Case 2=2
+CopyAutoIncrement 2=1
+Where 2=
+SName 3=products
+SType 3=1
+DName 3=products
+TDescr 3=TRIAL
+OnlyStruct 3=0
+TableIndex 3=1
+ForeignKey 3=1
+MakeNameUnique 3=0
+TO 3=3
+Name Case 3=2
+CopyAutoIncrement 3=1
+Where 3=
+SName 4=users
+SType 4=1
+DName 4=users
+TDescr 4=TRIAL
+OnlyStruct 4=0
+TableIndex 4=1
+ForeignKey 4=1
+MakeNameUnique 4=0
+TO 4=3
+Name Case 4=2
+CopyAutoIncrement 4=1
+Where 4=
+[Field Map 0]
+MapCount=0
+UseFieldMap=0
+[Field Map 1]
+MapCount=0
+UseFieldMap=0
+[Field Map 2]
+MapCount=0
+UseFieldMap=0
+[Field Map 3]
+MapCount=0
+UseFieldMap=0
+[Field Map 4]
+MapCount=0
+UseFieldMap=0

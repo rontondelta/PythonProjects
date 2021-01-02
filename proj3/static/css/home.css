@@ -1,0 +1,40 @@
+body { 
+	color: white;
+ }
+
+
+#itemImage {
+	height: 200px;
+	width: 150px;
+}
+
+.display {
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	border-spacing: 20px;
+}
+
+#productName {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+a {
+	color: black;
+ }
+
+#productPrice {
+	text-align: center;
+}
+
+.displayCategory ul li {
+	color: white;
+	font-size: 20px;
+}
